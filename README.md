@@ -1,6 +1,5 @@
 # Segundo Parcial - Paradigmas de Programacion
 
-Este repositorio contiene el desarrollo de los tres ejercicios del **Segundo Parcial** de la materia **Paradigmas de Programacion**.  
 Cada carpeta corresponde a un paradigma diferente: agentes y programacion orientada a objetos.
 
 ---
