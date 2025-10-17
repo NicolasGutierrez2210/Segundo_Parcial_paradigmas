@@ -1,8 +1,5 @@
-# 🧠 Simulación del Perceptrón — Modelo Multiagente con Mesa
+#  Simulación del Perceptrón — Modelo Multiagente con Mesa
 
-### 👨‍💻 Autor
-**Nicolás [Tu Apellido]**  
-Proyecto desarrollado en Python utilizando la librería **Mesa (v2.1.1)** para simulación basada en agentes.
 
 ---
 
@@ -29,7 +26,7 @@ El modelo muestra visualmente cómo el perceptron **ajusta su frontera de decisi
 
 ---
 
-## 🧩 Estructura del Proyecto
+##  Estructura del Proyecto
 
 PerceptronAgentes/
 │
@@ -42,16 +39,16 @@ PerceptronAgentes/
 
 ---
 
-## 🧠 Funcionamiento del Modelo
+##  Funcionamiento del Modelo
 
-### 1️⃣ Inicialización
+### Inicialización
 - Se generan **N puntos aleatorios** en una cuadrícula de 20x20.
 - Cada punto tiene:
   - Una posición `(x, y)`
   - Una etiqueta `label` → 1 si `y > x`, de lo contrario 0.
 - Se inicializan los **pesos w₁, w₂** y **bias** de forma aleatoria.
 
-### 2️⃣ Dinámica de los agentes
+###  Dinamica de los agentes
 Cada agente (punto) calcula la salida del perceptrón:
 ```python
 suma = w1*x + w2*y + bias
