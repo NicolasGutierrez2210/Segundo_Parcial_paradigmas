@@ -12,7 +12,6 @@ El perceptron aprende a clasificar los puntos mediante **ajuste iterativo de pes
 Durante la simulacion, los puntos se colorean:
 - 🟢 **Verde** → Clasificado correctamente.  
 - 🔴 **Rojo** → Clasificado incorrectamente.
-- El modelo muestra visualmente como el perceptron **ajusta su frontera de decision** con el tiempo, intentando separar correctamente ambas clases.
 ---
 ##  Diseño Matemático del Perceptron
 
