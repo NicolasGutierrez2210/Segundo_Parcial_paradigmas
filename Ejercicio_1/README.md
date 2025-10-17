@@ -72,8 +72,8 @@ output = 1 if suma >= 0 else 0
 ---
 ## Conclusiones
 
-- La simulación demuestra cómo el perceptrón aprende de errores y ajusta sus parámetros mediante retroalimentación local.
+- La simulacion demuestra como el perceptron aprende de errores y ajusta sus parametros mediante retroalimentacion local.
 
-- El uso de Mesa permite visualizar el proceso de aprendizaje de forma interactiva y didáctica.
+- El uso de Mesa permite visualizar el proceso de aprendizaje de forma interactiva y didactica.
 
 - El modelo cumple con el principio del aprendizaje supervisado, mostrando convergencia en un problema linealmente separable.
