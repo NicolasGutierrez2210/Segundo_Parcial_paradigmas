@@ -13,7 +13,7 @@ Durante la simulacion, los puntos se colorean:
 - 🟢 **Verde** → Clasificado correctamente.  
 - 🔴 **Rojo** → Clasificado incorrectamente.
 ---
-##  Diseño Matemático del Perceptron
+##  Diseño Matematico del Perceptron
 
 El perceptron ajusta sus pesos segun el error de clasificacion de cada punto.  
 La funcion de activacion es la funcion escalon:
@@ -68,7 +68,14 @@ output = 1 if suma >= 0 else 0
 ```
 ---
 ## Capturas de pantalla
-- Encontraren puntos 1 y 2
+- Encontrar en puntos 1 y 2
+---
+## Como ejecutar
+1. Descarga todos los archivos . py y ponlos en una carpeta.
+2. Abre la terminal y escribe:  python agentecalculadora.py
+3. Prueba el simulador en la pagina que te abre (Los parametros los puedes cambiar en el codigo).
+
+
 ---
 ## Conclusiones
 
