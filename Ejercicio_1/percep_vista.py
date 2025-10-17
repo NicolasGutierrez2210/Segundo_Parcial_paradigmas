@@ -4,7 +4,7 @@ from percep_modelo import PerceptronModel
 
 
 def agent_portrayal(agent):
-    """Cómo se muestra cada punto según su salida actual."""
+    """Como se muestra cada punto segun su salida actual."""
     portrayal = {
         "Shape": "circle",
         "Filled": "true",
@@ -40,4 +40,5 @@ server = ModularServer(
 )
 
 server.port = 8521
+
 
