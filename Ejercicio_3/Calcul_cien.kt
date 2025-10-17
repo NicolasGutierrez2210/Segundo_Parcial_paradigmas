@@ -5,7 +5,7 @@ open class Calculadora {
     fun restar(a: Double, b: Double): Double = a - b
     fun multiplicar(a: Double, b: Double): Double = a * b
     fun dividir(a: Double, b: Double): Double {
-        if (b == 0.0) throw ArithmeticException("Error: división por cero")
+        if (b == 0.0) throw ArithmeticException("Error: divisiOn por cero")
         return a / b
     }
 }
@@ -35,7 +35,7 @@ class CalculadoraCientifica : Calculadora() {
 
 fun main() {
     val calc = CalculadoraCientifica()
-    println("=== CALCULADORA CIENTÍFICA ===")
+    println("=== CALCULADORA CIENTIFICA ===")
     println("Operaciones disponibles:")
     println("+, -, *, /, sin(x), cos(x), tan(x), sinDeg(x), cosDeg(x), tanDeg(x),")
     println("potencia(a,b), raiz(a,b), log10(x), ln(x), exp(x)")
@@ -138,5 +138,6 @@ fun main() {
         println()
     }
 
-    println("Gracias por usar la calculadora científica.")
+    println("Gracias :).")
+
 }
