@@ -46,7 +46,7 @@ Cada excepcion se comunica al usuario con mensajes claros, sin interrumpir la ej
 
 ---
 
-## interaccion con el usuario
+## Interaccion con el usuario
 El programa ofrece una **interfaz de consola interactiva**, donde el usuario puede escribir operaciones directamente:
 
 ---
