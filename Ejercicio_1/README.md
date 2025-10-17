@@ -20,11 +20,6 @@ El modelo muestra visualmente como el perceptron **ajusta su frontera de decisio
 El perceptron ajusta sus pesos segun el error de clasificacion de cada punto.  
 La funcion de activacion es la funcion escalon:
 
-$y = \begin{cases} 
-1 & \text{si } (w_1x_1 + w_2x_2 + b) \ge 0 \\ 
-0 & \text{en otro caso} 
-\end{cases}$
-
 El aprendizaje se realiza con la siguiente regla de actualizacion:
 
 $w_i = w_i + \eta \cdot error \cdot x_i$
