@@ -38,5 +38,3 @@ Permite realizar operaciones basicas y cientificas, incluyendo trigonometria, lo
 - GitHub para control de versiones
 
 ---
-Repositorio academico - Segundo Parcial de Paradigmas de Programacion  
-2025
