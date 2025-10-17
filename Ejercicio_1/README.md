@@ -1,9 +1,9 @@
-#  Simulación del Perceptrón — Modelo Multiagente con Mesa
+#  Simulacion del Perceptron
 
 
 ---
 
-## 📘 Descripción General
+## 📘 Descripcion General
 
 Este proyecto implementa un **perceptrón simple** como un **modelo multiagente**.  
 Cada agente representa un **punto (x, y)** dentro de una cuadricula, el cual tiene una **etiqueta (label)** que indica su clase.  
@@ -13,14 +13,14 @@ Durante la simulación, los puntos se colorean:
 - 🟢 **Verde** → Clasificado correctamente.  
 - 🔴 **Rojo** → Clasificado incorrectamente.
 
-El modelo muestra visualmente cómo el perceptron **ajusta su frontera de decisión** con el tiempo, intentando separar correctamente ambas clases.
+El modelo muestra visualmente como el perceptron **ajusta su frontera de decisión** con el tiempo, intentando separar correctamente ambas clases.
 
 ---
 
-## ⚙️ Tecnologías y Librerías Utilizadas
+## Tecnologías y Librerias Utilizadas
 
 - **Python 3.11+**
-- **Mesa 2.1.1** (simulación multiagente)
+- **Mesa 2.1.1** (simulacion multiagente)
 - **Tornado** (servidor web incluido en Mesa)
 - **Random** (para generación de datos aleatorios)
 
@@ -54,3 +54,14 @@ Cada agente (punto) calcula la salida del perceptrón:
 suma = w1*x + w2*y + bias
 output = 1 if suma >= 0 else 0
 ```
+---
+## Capturas de pantalla
+- Encontraren puntos 1 y 2
+---
+##Conclusiones
+
+- La simulación demuestra cómo el perceptrón aprende de errores y ajusta sus parámetros mediante retroalimentación local.
+
+- El uso de Mesa permite visualizar el proceso de aprendizaje de forma interactiva y didáctica.
+
+- El modelo cumple con el principio del aprendizaje supervisado, mostrando convergencia en un problema linealmente separable.
