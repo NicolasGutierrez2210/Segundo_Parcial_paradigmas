@@ -3,7 +3,7 @@
 
 ---
 
-## 📘 Descripcion General
+##  Descripcion General
 
 Este proyecto implementa un **perceptrón simple** como un **modelo multiagente**.  
 Cada agente representa un **punto (x, y)** dentro de una cuadricula, el cual tiene una **etiqueta (label)** que indica su clase.  
@@ -14,6 +14,32 @@ Durante la simulacion, los puntos se colorean:
 - 🔴 **Rojo** → Clasificado incorrectamente.
 
 El modelo muestra visualmente como el perceptron **ajusta su frontera de decision** con el tiempo, intentando separar correctamente ambas clases.
+---
+##  Diseño Matemático del Perceptrón
+
+El perceptrón aprende ajustando los pesos según el error cometido en cada ejemplo.
+
+**Ecuación de activación:**
+\[
+output = \begin{cases}
+1 & \text{si } (w_1x_1 + w_2x_2 + bias) \geq 0 \\
+0 & \text{en otro caso}
+\end{cases}
+\]
+
+**Regla de actualizacion de pesos:**
+\[
+w_i = w_i + \eta \cdot (label - output) \cdot x_i
+\]
+\[
+bias = bias + \eta \cdot (label - output)
+\]
+
+donde:
+- \( \eta \) → tasa de aprendizaje  
+- \( label \) → salida esperada  
+- \( output \) → salida calculada  
+- \( w_i \) → peso asociado a la entrada \( x_i \)
 
 ---
 
