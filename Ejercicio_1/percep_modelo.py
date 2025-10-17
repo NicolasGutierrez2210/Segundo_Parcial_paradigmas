@@ -9,7 +9,7 @@ class Punto(Agent):
         super().__init__(unique_id, model)
         self.pos = (x, y)
         self.label = label
-        self.output = 0  # salida del perceptrón
+        self.output = 0  
 
     def step(self):
         x1, x2 = self.pos
@@ -52,3 +52,4 @@ class PerceptronModel(Model):
             self.step_count += 1
         else:
             self.running = False
+
