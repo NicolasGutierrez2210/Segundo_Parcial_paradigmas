@@ -15,32 +15,25 @@ Durante la simulacion, los puntos se colorean:
 
 El modelo muestra visualmente como el perceptron **ajusta su frontera de decision** con el tiempo, intentando separar correctamente ambas clases.
 ---
-##  Diseño Matemático del Perceptrón
+##  Diseño Matemático del Perceptron
 
-El perceptrón aprende ajustando los pesos según el error cometido en cada ejemplo.
+El perceptron ajusta sus pesos segun el error de clasificacion de cada punto.  
+La funcion de activacion es la funcion escalon:
 
-**Ecuación de activación:**
-\[
-output = \begin{cases}
-1 & \text{si } (w_1x_1 + w_2x_2 + bias) \geq 0 \\
-0 & \text{en otro caso}
-\end{cases}
-\]
+$y = \begin{cases} 
+1 & \text{si } (w_1x_1 + w_2x_2 + b) \ge 0 \\ 
+0 & \text{en otro caso} 
+\end{cases}$
 
-**Regla de actualizacion de pesos:**
-\[
-w_i = w_i + \eta \cdot (label - output) \cdot x_i
-\]
-\[
-bias = bias + \eta \cdot (label - output)
-\]
+El aprendizaje se realiza con la siguiente regla de actualizacion:
+
+$w_i = w_i + \eta \cdot error \cdot x_i$
+
+$b = b + \eta \cdot error$
 
 donde:
-- \( \eta \) → tasa de aprendizaje  
-- \( label \) → salida esperada  
-- \( output \) → salida calculada  
-- \( w_i \) → peso asociado a la entrada \( x_i \)
-
+- $\eta$ es la tasa de aprendizaje (learning rate)
+- $error = (label - output)$
 ---
 
 ## Tecnologias y Librerias Utilizadas
