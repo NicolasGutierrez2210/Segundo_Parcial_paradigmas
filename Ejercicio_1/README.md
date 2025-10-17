@@ -58,7 +58,7 @@ output = 1 if suma >= 0 else 0
 ## Capturas de pantalla
 - Encontraren puntos 1 y 2
 ---
-##Conclusiones
+## Conclusiones
 
 - La simulación demuestra cómo el perceptrón aprende de errores y ajusta sus parámetros mediante retroalimentación local.
 
