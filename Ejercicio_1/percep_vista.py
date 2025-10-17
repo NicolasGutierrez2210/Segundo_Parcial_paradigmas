@@ -9,10 +9,10 @@ def agent_portrayal(agent):
         "Shape": "circle",
         "Filled": "true",
         "r": 0.7,
-        "Layer": 0  # ✅ CAPA NECESARIA PARA MESA 2.1.1
+        "Layer": 0  
     }
 
-    # Verde si está bien clasificado, rojo si está mal
+   
     if agent.output == agent.label:
         portrayal["Color"] = "green"
     else:
@@ -24,10 +24,10 @@ def agent_portrayal(agent):
 # --- Grilla visual ---
 grid = CanvasGrid(agent_portrayal, 20, 20, 500, 500)
 
-# --- Parámetros fijos (ajústalos a tu gusto) ---
+# --- Parametros fijos (Se ajustan al gusto de la persona) ---
 fixed_params = {
     "N": 50,
-    "learning_rate": 0.05,
+    "learning_rate": 0.05,  # ejemplosss
     "iterations": 100,
 }
 
@@ -35,8 +35,9 @@ fixed_params = {
 server = ModularServer(
     PerceptronModel,
     [grid],
-    "Simulación del Perceptrón (Versión compatible Mesa 2.1.1)",
+    "Simulacion del Perceptron",
     fixed_params
 )
 
 server.port = 8521
+
