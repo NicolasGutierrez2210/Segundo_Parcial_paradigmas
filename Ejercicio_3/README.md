@@ -1,12 +1,12 @@
 # Calculadora cientifica orientada a objetos en kotlin
 
-## descripcion general
+## Descripcion general
 La aplicacion implementa una **calculadora cientifica** disenada con los principios de **Programacion Orientada a Objetos (POO)** en Kotlin.  
 Permite realizar operaciones aritmeticas basicas y avanzadas (trigonometria, logaritmos, potencias, raices, exponenciales, y conversion entre grados y radianes), manejando errores comunes y ofreciendo una interfaz de consola amigable para el usuario.
 
 ---
 
-## principios de programacion orientada a objetos aplicados
+## Principios de programacion orientada a objetos aplicados
 
 ### Encapsulamiento
 Cada operacion y variable interna se encuentra **protegida dentro de su clase**.  
@@ -36,7 +36,7 @@ Esto permite que una misma funcion (por ejemplo, `sumar`) pueda operar sobre dif
 
 ---
 
-## manejo de excepciones
+## Manejo de excepciones
 El sistema captura y maneja errores comunes:
 - Division por cero (`ArithmeticException`)
 - Entrada no valida o mal formada (`IllegalArgumentException`)
@@ -53,4 +53,4 @@ El programa ofrece una **interfaz de consola interactiva**, donde el usuario pue
 ## Conclusiones
 - Este proyecto demuestra como el paradigma orientado a objetos permite construir una aplicacion modular, escalable y facil de mantener. 
 - El encapsulamiento protege los datos, la herencia facilita la extension de funcionalidades y el polimorfismo aporta flexibilidad en el manejo de distintos tipos de datos.  
-- La aplicacion final ofrece una interfaz amigable, robusta y precisa, cumpliendo con los requisitos de una calculadora cientifica moderna.
+
